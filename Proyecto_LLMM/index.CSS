@@ -29,6 +29,53 @@ header h1 a{
     margin-left: 20px;
 }
 
+.contenedor{
+    width: 30%;
+    height: auto;
+    margin: 0px 200px;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto 0 auto;
+    padding: 10px 125px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    justify-content: right;
+}
+
+h1{
+    color:  #2f6b5a;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li{
+    margin-bottom: 10px;
+}
+
+nav li::before{
+    content: "✅ ";
+}
+
 form h1 {
     font-weight: bold;
     color: black;
