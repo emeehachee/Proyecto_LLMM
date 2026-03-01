@@ -30,53 +30,53 @@ a{
 }
 
 /* TITULO */
-.menu-container {
+.menucontenedor {
     text-align: center;
-    padding: 50px 20px;
+    padding: 10px 20px;
 }
 
-.menu-container h2 {
+.menucontenedor h2 {
     font-size: 40px;
     color: #2f6b5a;
     margin-bottom: 40px;
 }
 
 /* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+.platos {
+    display: flex;
+    flex-wrap: wrap;       
+    gap:25px;             
+    width: 1300px;      
+    margin: 0 auto;        
+    justify-content: center; 
 }
-
 /* TARJETAS */
-.card {
+.plato {
+    flex: 1 1 320px;
     background-color: white;
     border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px;
+    box-sizing: border-box; 
+    text-align: center;
 }
 
-.card:hover {
+.plato:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-.card img {
+.plato img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 225px;
     border-radius: 10px;
 }
 
-.card h3 {
+.plato h3 {
     margin: 15px 0 5px 0;
     font-size: 22px;
 }
 
-.card p {
+.plato p {
     font-size: 14px;
     color: #555;
 }
@@ -95,6 +95,7 @@ a{
     padding: 10px 20px;
     background-color: #2f6b5a;
     color: white;
+    font-weight: bold;
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease;
