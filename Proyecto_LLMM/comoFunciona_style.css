@@ -56,19 +56,25 @@ header h1 a{
 }
 
 .contenedor {
-    background-color: #29965f;  
-    color: white;
+    background-color: #e0eee7;  
     font-weight:bold;
     text-align: center;
     margin: 20px auto;
-    width: 50%;
+    width: 70%;
     border-radius: 10px;
 }
 
-.contenedor p{
-    margin: 20px auto;
-    font-size: 40px;
+.contenedor h1{
+    margin: 15px auto;
+    color: black;
 }
+
+.contendor p{
+    margin: 20px auto;
+    color: black;
+    font-size: 30px;
+}
+
 
 .boton{
     display: inline-block;
@@ -76,12 +82,12 @@ header h1 a{
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 450px;
-    height: 50px;
-    font-size: 20px;
+    width: 225px;
+    height: 30px;
+    font-size: 18px;
 }
 
 
