@@ -29,7 +29,6 @@ a{
     margin-left: 20px;
 }
 
-/* TITULO */
 .menucontenedor {
     text-align: center;
     padding: 10px 20px;
@@ -41,7 +40,6 @@ a{
     margin-bottom: 40px;
 }
 
-/* GRID */
 .platos {
     display: flex;
     flex-wrap: wrap;       
@@ -50,7 +48,7 @@ a{
     margin: 0 auto;        
     justify-content: center; 
 }
-/* TARJETAS */
+
 .plato {
     flex: 1 1 320px;
     background-color: white;
