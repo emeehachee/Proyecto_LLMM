@@ -11,21 +11,37 @@ header {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-around; 
+    padding: 0 100px;
+    box-sizing: border-box;
 }
 
-a{
+nav {
+    display: flex;
+    gap: 70px; 
+}
+
+.cabecera {
     text-decoration: none;
     color: white;
-}
-
-.cabecera{
-    color: white;
-    padding-left: 20px;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 20px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 70px; 
+}
+
+.iconos img {
+    height: 40px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .contenedor{

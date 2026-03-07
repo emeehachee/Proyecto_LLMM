@@ -12,10 +12,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px; 
+    gap: 100px;
 }
 
-header h1 a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -25,8 +25,43 @@ header h1 a{
     padding-left: 20px;
     font-weight: bold;
     font-size: 20px;
-    text-decoration: none;
     margin-left: 20px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contenedor {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.contenedor h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+details {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+summary {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left:20px;
+  font-size: 20px;
+}
+
+.contenedor p {
+  margin-top: 15px;
+  padding-left:30px;
 }
 
 footer{ 
