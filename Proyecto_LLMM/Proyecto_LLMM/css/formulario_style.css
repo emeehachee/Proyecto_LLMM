@@ -4,14 +4,146 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.formulario{
+header {
+    background-color: #2f6b5a;
+    color: white;
+    width: 100%;
+    height: 100px;
     display: flex;
-    justify-content: center; 
-    margin-top: 25px;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 0 100px;
+    box-sizing: border-box;
 }
 
-form h1{
-    text-align: center;
+nav {
+    display: flex;
+    gap: 70px; 
+}
+
+.cabecera {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
-    color: black;
+    font-size: 20px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 70px; 
+}
+
+.iconos img {
+    height: 40px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecera{
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+form {
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.campo {
+    flex: 1;
+}
+
+.fila {
+    width: 100%;
+    display: flex;
+}
+
+.campo_completo {
+    width: 100%;
+}
+
+h1 {
+   text-align: center;
+}
+
+.botones {
+    margin: 0 auto;
+    width: 50%; 
+    
+    
+}
+
+input {
+    padding: 5px;
+    border-color: black;
+    border-radius: 4px;
+    background-color:rgb(233, 233, 233);
+    border-color: rgb(7, 93, 7);
+}
+
+textarea {
+    border-color: black;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color:rgb(238, 238, 238);
+    border-color: rgb(7, 93, 7);
+}
+
+input[type="submit"] {
+    padding: 5px;
+    width: 25%;
+    background-color:rgb(233, 233, 233);
+}
+
+input[type="reset"] {
+    padding: 5px;
+    width: 25%;
+    background-color:rgb(233, 233, 233);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="submit"]:Hover {
+     background-color: #2f6b5a; 
+     color: white;
+}
+
+input[type="reset"]:Hover {
+     background-color: #2f6b5a; 
+     color: white;
+}
+footer{ 
+    width: 100%; 
+    height: 175px; 
+    background-color: #2f6b5a; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    gap: 125px; 
+    margin-top: 50px;
+}
+
+
+.pie{
+    display: block; 
+    color: white;
+    margin-top: 15px;
+}
+
+.separacion{
+    margin-top: 25px;
 }

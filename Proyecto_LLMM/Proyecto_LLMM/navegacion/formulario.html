@@ -25,30 +25,46 @@
             <a href="carrito.html"><img src="../media/107831.png" alt="Carrito"></a>
         </div>
     </header>
-
-    <div class="formulario">
-
+    
         <form action="#" method="post">
+
             <h1>Formulario de contacto</h1>
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre"><br><br>
+               
+                <div class="fila">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre">
+                    </div>
 
-                <label for="apellido">Apellido:</label><br>
-                <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellido"><br><br>
+                    <div class="campo">
+                        <label for="apellido">Apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellido">
+                    </div>
+                </div>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" placeholder="Introduzca su email"><br><br>
+                <div class="fila">
+                    <div class="campo">
+                         <label for="email">Email:</label><br>
+                         <input type="email" id="email" name="email" placeholder="Introduzca su email">
+                    </div>
 
-                <label for="Telefono">Telefono:</label><br>
-                <input type="tel" id="Telefono" name="Telefono" placeholder="Introduzca su telefono"><br><br>     
+                    <div class="campo">
+                         <label for="Telefono">Telefono:</label><br>
+                         <input type="tel" id="Telefono" name="Telefono" placeholder="Introduzca su telefono">    
+                    </div>
+                </div>
 
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="7" cols="100" maxlength="500" placeholder="Introduzca el mensaje a enviar (maximo 500 caracteres)"></textarea><br><br>
-
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <div class="campo_completo">       
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="70" maxlength="500" placeholder="Introduzca el mensaje a enviar (maximo 500 caracteres)"></textarea>
+                </div>
+                
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
         </form>
-    </div>
+   
 
     <footer>
         <h1 class="separacion">EatUp!</h1>
