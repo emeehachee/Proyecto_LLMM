@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    background-color:white;
+    font-family: Arial, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-weight:bold;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.comofunciona {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.comofunciona h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pasos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.paso {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.paso h3 {
+  margin-top: 0;
+}
+
+.contenedor {
+    background-color: #e0eee7;  
+    font-weight:bold;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.contenedor h1{
+    margin: 15px auto;
+    color: black;
+}
+
+.contendor p{
+    margin: 20px auto;
+    color: black;
+    font-size: 30px;
+}
+
+
+.boton{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 225px;
+    height: 30px;
+    font-size: 18px;
+}
