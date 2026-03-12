@@ -206,7 +206,7 @@ nav li::before{
 
 footer{ 
     width: 100%; 
-    height: 270px; 
+    height: 175px; 
     background-color: #2f6b5a; 
     color: white; 
     display: flex; 
@@ -223,5 +223,5 @@ footer{
 }
 
 .separacion{
-    margin-top: 40px;
+    margin-top: 25px;
 }
