@@ -8,6 +8,9 @@
 
 .plato {
     display: flex;
+    width: 1200px; 
+    height: 450px; 
+    align-items: center;
     max-width: none; 
     align-items: center;
     background-color: white;
