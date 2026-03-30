@@ -17,11 +17,6 @@ body{
   padding: 0px 20px;
 }
 
-.comofunciona h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
 .pasos {
   display: flex;
   flex-wrap: wrap;

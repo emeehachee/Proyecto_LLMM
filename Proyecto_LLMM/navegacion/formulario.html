@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="../css/formulario_style.css">
     <link rel="stylesheet" href="../css/headerFooter_style.css">
+    <link rel="stylesheet" href="../css/formulario_style.css">
 </head>
 <body>
     <header>
@@ -26,45 +26,49 @@
         </div>
     </header>
     
+    <div class="contenedor">
         <form action="#" method="post">
-
-            <h1>Formulario de contacto</h1>
+            <h2 class="titulo">Formulario de contacto</h2>
                
                 <div class="fila">
                     <div class="campo">
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre">
+                        <label class="obligatorio" for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" required>
                     </div>
 
                     <div class="campo">
-                        <label for="apellido">Apellido:</label><br>
+                        <label for="apellido">Apellido:</label>
                         <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellido">
                     </div>
                 </div>
 
                 <div class="fila">
                     <div class="campo">
-                         <label for="email">Email:</label><br>
-                         <input type="email" id="email" name="email" placeholder="Introduzca su email">
+                         <label class="obligatorio" for="email">Email:</label>
+                         <input type="email" id="email" name="email" placeholder="Introduzca su email" required>
                     </div>
 
                     <div class="campo">
-                         <label for="Telefono">Telefono:</label><br>
+                         <label class="obligatorio" for="Telefono">Telefono:</label>
                          <input type="tel" id="Telefono" name="Telefono" placeholder="Introduzca su telefono">    
                     </div>
                 </div>
 
-                <div class="campo_completo">       
-                    <label for="mensaje">Mensaje:</label><br>
+                <div class="campo">       
+                    <label class="obligatorio" for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" rows="5" cols="70" maxlength="500" placeholder="Introduzca el mensaje a enviar (maximo 500 caracteres)"></textarea>
                 </div>
                 
                 <div class="botones">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
+                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="borrar" type="reset" value="Borrar">
                 </div>
         </form>
-   
+    </div>
+
+    <p><strong>Horario de atencion: </strong>Lunes a Viernes de 9:00 a 20:00</p>
+
+    <p><strong>Email de contacto: </strong>eatup@gmail.com</p>
 
     <footer>
         <h1 class="separacion">EatUp!</h1>
