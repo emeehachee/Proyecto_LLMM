@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/headerFooter_style.css">
+    <link rel="stylesheet" href="../css/carrito_style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="../../index.html">EatUp!</a></h1>
+        </div>
+
+        <nav class="menu">
+            <a class="cabecera" href="platos.html#principales">PLATOS PRINCIPALES</a>
+            <a class="cabecera" href="platos.html#secundarios">PLATOS SECUNDARIOS</a>
+            <a class="cabecera" href="platos.html#postres">POSTRES</a>
+            <a class="cabecera" href="comoFunciona.html">COMO FUNCIONA</a>
+        </nav>
+
+        <div class="iconos">
+            <a href="iniciarSesion.html"><img src="../media/1000997.png" alt="Usuario" width="30"></a>
+            <a href="carrito.html"><img src="../media/107831.png" alt="Carrito" width="30"></a>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <div class="column-left">
+            <div class="bordered-container">
+                <h1 class="container-title-platos">Selección de platos</h1>   
+                <div class="plato">
+                    <img src="../media/Platos/primeros/carbonara.avif" alt="Pasta Carbonara">
+                    <div class="plato-info">
+                        <h3>Pasta Carbonara</h3>
+                        <span class="price">11,80€</span>
+                    </div>
+                </div>
+
+                <div class="plato">
+                    <img src="../media/Platos/segundos/CARRILLERAS.jpg" alt="Carrillera iberica">
+                    <div class="plato-info">
+                        <h3>Carrilleras de Ternera Glaseadas</h3>
+                        <span class="price">18,50€</span>
+                    </div>
+                </div>
+
+                <div class="plato">
+                    <img src="../media/Platos/postres/Postres1.jpg" alt="Tarta de queso">
+                    <div class="plato-info">
+                        <h3>Tarta de Queso Casera</h3>
+                        <span class="price">6,50€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column-right">
+            <div class="bordered-container">
+                <h1 class="container-title-resumen">Resumen del pedido</h1>
+                
+                <div class="summary-line">
+                    <span>Subtotal</span>
+                    <span class="font-bold">36,80€</span>
+                </div>
+
+                <div class="summary-line">
+                    <span>Envío</span>
+                    <span class="text-green">3,95€</span>
+                </div>
+
+                <div class="summary-line">
+                    <span>¿Algun descuento?</span><br>
+                    <p></p>
+                    <input type="text" placeholder="Código" class="input-descuento">
+                    <button type="button" class="btn-aplicar">Aplicar</button>
+                </div>
+
+                <div class="divider" style="height: 1px; background: #eee; margin: 15px 0;"></div>
+
+                <div class="total-line" style="display: flex; justify-content: space-between; font-size: 1.5rem; font-weight: bold;">
+                    <span>Total</span>
+                    <span>40,75€</span>
+                </div>
+                
+                <button class="boton">Continuar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1 class="separacion">EatUp!</h1>
+        <div>
+            <h3 class="separacion">Servicios y productos</h3>
+            <a class="pie" href="platos.html">Platos</a>
+            <a class="pie" href="">Para empresas</a>
+            <a class="pie" href="">Descuentos</a>
+        </div> 
+
+        <div>
+            <h3 class="separacion">Ayuda</h3>
+            <a class="pie" href="comoFunciona.html">Como funciona</a>
+            <a class="pie" href="preguntas.html">Preguntas frecuentes</a>
+        </div> 
+
+        <div>
+            <h3 class="separacion">Contacto</h3>
+            <a class="pie" href="formulario.html">Contacta con nosotros</a>
+            <p>eatup@gmail.com</p>
+        </div> 
+    </footer>
+
+</body>
+</html>
