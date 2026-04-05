@@ -1,6 +1,10 @@
 body{
     margin: 0px;
     background-color: #eeeeee;
+    background-image: url(../media/imagenComida.png);  
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
 }
 

@@ -2,10 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../media/93329194-superfoods-on-white-background-organic-food-and-healthy-vegan-food-legumes-nuts-seeds-greens.jpg);  
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #eeeeee;
     font-family: Arial, sans-serif;
     display: block; /* Para que el header, el div contenedor y el footer se apilen */
 }
@@ -29,14 +26,14 @@ body {
 }
 
 .column-left .bordered-container {
-    border: 3px solid #2f6b5a;
+    border: 2px solid #2f6b5a;
     border-radius: 16px;
     padding: 30px;
     background-color:white;
 }
 
 .column-right .bordered-container {
-    border: 3px solid #2f6b5a;
+    border: 2px solid #2f6b5a;
     border-radius: 16px;
     padding: 20px;
     background-color:white;
