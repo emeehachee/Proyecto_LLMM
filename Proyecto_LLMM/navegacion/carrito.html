@@ -27,22 +27,23 @@
     </header>
 
     <div class="contenedor">
-        <div class="column-left">
-            <div class="bordered-container">
-                <h1 class="container-title-platos">Selección de platos</h1>   
+        <div class="izquierda">
+            <div class="borde">
+                <h1>Selección de platos</h1> 
+
                 <div class="plato">
                     <img src="../media/Platos/primeros/carbonara.avif" alt="Pasta Carbonara">
                     <div class="plato-info">
                         <h3>Pasta Carbonara</h3>
-                        <span class="price">11,80€</span>
+                        <span class="precio">11,80€</span>
                     </div>
-                </div>
+            </div>
 
                 <div class="plato">
                     <img src="../media/Platos/segundos/CARRILLERAS.jpg" alt="Carrillera iberica">
                     <div class="plato-info">
                         <h3>Carrilleras de Ternera Glaseadas</h3>
-                        <span class="price">18,50€</span>
+                        <span class="precio">18,50€</span>
                     </div>
                 </div>
 
@@ -50,37 +51,36 @@
                     <img src="../media/Platos/postres/Postres1.jpg" alt="Tarta de queso">
                     <div class="plato-info">
                         <h3>Tarta de Queso Casera</h3>
-                        <span class="price">6,50€</span>
+                        <span class="precio">6,50€</span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="column-right">
-            <div class="bordered-container">
-                <h1 class="container-title-resumen">Resumen del pedido</h1>
+        <div class="derecha">
+            <div class="borde">
+                <h1>Resumen del pedido</h1>
                 
-                <div class="summary-line">
+                <div class="resumen">
                     <span>Subtotal</span>
-                    <span class="font-bold">36,80€</span>
+                    <span>36,80€</span>
                 </div>
 
-                <div class="summary-line">
+                <div class="resumen">
                     <span>Envío</span>
-                    <span class="text-green">3,95€</span>
+                    <span>3,95€</span>
                 </div>
 
-                <div class="summary-line">
-                    <span>¿Algun descuento?</span><br>
-                    <p></p>
-                    <input type="text" placeholder="Código" class="input-descuento">
-                    <button type="button" class="btn-aplicar">Aplicar</button>
+                <div class="resumen">
+                    <span>¿Algun descuento?</span>
+                    <div class="opcion">
+                    <input type="text" placeholder="Código" class="inputDescuento">
+                    <button type="button" class="botonDescuento">Aplicar</button>
+                    </div>
                 </div>
 
-                <div class="divider" style="height: 1px; background: #eee; margin: 15px 0;"></div>
-
-                <div class="total-line" style="display: flex; justify-content: space-between; font-size: 1.5rem; font-weight: bold;">
-                    <span>Total</span>
+                <div class="resumen total">
+                    <span >Total</span>
                     <span>40,75€</span>
                 </div>
                 
