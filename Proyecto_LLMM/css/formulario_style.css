@@ -46,9 +46,9 @@ label {
 input {
     padding: 5px;
     padding-left: 10px;
-    background-color:lightgray;
+    background-color:#f9f9f9;
     border: 2px solid green;
-    border-radius: 4px;
+    border-radius: 10px;
     height: 20px;
 }
 
@@ -57,11 +57,11 @@ input {
 }
 
 textarea {
-    padding-left: 10px;
-    padding-top: 5px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
     border: 2px solid green;
-    border-radius: 4px;
-    background-color:lightgray;
+    border-radius: 10px;
+    background-color:#f9f9f9;
     resize: none;
 }
 

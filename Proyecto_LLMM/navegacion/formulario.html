@@ -6,6 +6,8 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="../css/headerFooter_style.css">
     <link rel="stylesheet" href="../css/formulario_style.css">
+    <script src="../js/formulario.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -57,10 +59,11 @@
                 <div class="campo">       
                     <label class="obligatorio" for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" rows="5" cols="70" maxlength="500" placeholder="Introduzca el mensaje a enviar (maximo 500 caracteres)"></textarea>
+                    <p id="cuentaCaracteres">Caracteres restantes: 500</p>
                 </div>
                 
                 <div class="botones">
-                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="enviar" id="enviar" type="submit" value="Enviar">
                     <input class="borrar" type="reset" value="Borrar">
                 </div>
         </form>
