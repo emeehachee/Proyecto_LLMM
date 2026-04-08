@@ -20,10 +20,12 @@ body {
     border-radius: 16px;
     padding: 30px; 
     background-color:white;
+    height: 700px;
 }
 
 .izquierda h1 {
-    font-size: 2rem;      
+    margin-top: 0;
+    font-size: 40px;      
     font-weight: bold;     
     text-align: center;    
     margin-bottom: 20px;   
@@ -36,13 +38,12 @@ body {
     align-items: center;
     gap: 20px;
     padding: 15px;
-    border: 1px solid #f3f4f6;
+    border: 1px solid gray;
     border-radius: 12px;
     margin-bottom: 15px;
 }
 
-.plato::after {
-    content: "x1";        
+.cantidad {     
     margin-left: auto;     
     padding-right: 20px;   
     font-weight: bold;
@@ -69,10 +70,11 @@ body {
 }
 
 .derecha h1 {
-    font-size: 1.5rem;
+    margin-top: 0;
+    font-size: 25px;
+    text-align: center;   
     font-weight: 700;
     margin-bottom: 20px;
-    width: 300px;
 }
 
 .resumen {
@@ -85,8 +87,30 @@ body {
 .opcion {
     width: 100%;
     display: flex;
-    gap: 5px;       
-    margin-top: 8px;
+    gap: 8px;       
+    margin-top: 10px;
+}
+
+.inputDescuento {
+    flex: 1; 
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.botonDescuento {
+    padding: 0px 15px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2f6b5a; 
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botonDescuento:hover {
+    background-color: rgb(55, 90, 66);
 }
 
 .total {
