@@ -68,3 +68,7 @@ body{
     height: 30px;
     font-size: 18px;
 }
+
+.boton:hover{
+  background-color: gray;
+}

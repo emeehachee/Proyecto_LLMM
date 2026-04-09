@@ -35,7 +35,13 @@
     margin-top: 20px;
     padding: 12px 25px;
     background-color: #2f6b5a;
+    border: 2px solid transparent;
     color: white;
     text-decoration: none;
     border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: #244f43;
+    border: 2px solid black;
 }

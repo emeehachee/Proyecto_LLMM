@@ -80,12 +80,14 @@ textarea {
 }
 
 .enviar {
+    font-weight: bold;
     height: 40px;
     padding: 5px;
     width: 25%;
 }
 
 .borrar {
+    font-weight: bold;
     height: 40px;
     padding: 5px;
     width: 25%;

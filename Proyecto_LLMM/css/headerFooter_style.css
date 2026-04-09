@@ -8,6 +8,10 @@ header {
     justify-content: space-around; 
     padding: 0 100px;
     box-sizing: border-box;
+
+    position: sticky;  /* Se queda pegado al llegar al tope */
+    top: 0;           /* Se pega al borde superior de la pantalla */
+    z-index: 1;    
 }
 
 .iconos img {
