@@ -1,5 +1,6 @@
 let mensajeArea = document.getElementById("mensaje");
 let contadorTexto = document.getElementById("cuentaCaracteres");
+let formulario = document.querySelector("form");
 
 mensajeArea.addEventListener("input", () => {
     let max = 500;
@@ -11,4 +12,9 @@ mensajeArea.addEventListener("input", () => {
     if(restantes<=50){
         contadorTexto.style.color = "red";
     }
+});
+
+
+formulario.addEventListener("submit", () => {
+    alert("Formulario enviado correctamente");
 });
