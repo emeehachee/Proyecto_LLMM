@@ -11,6 +11,8 @@ mensajeArea.addEventListener("input", () => {
 
     if(restantes<=50){
         contadorTexto.style.color = "red";
+    }else if (restantes>50){
+        contadorTexto.style.color = "black";
     }
 });
 
