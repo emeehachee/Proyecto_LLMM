@@ -11,8 +11,6 @@
     width: 1200px; 
     height: 450px; 
     align-items: center;
-    max-width: none; 
-    align-items: center;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 10px 25px lightgray;
@@ -22,8 +20,7 @@
     width: 450px;  
     height: 350px;   
     border-radius: 15px;
-    margin: auto 50px;
-    margin-right: 0px;
+    margin: auto 0 auto 50px;
 }
 
 .info {
