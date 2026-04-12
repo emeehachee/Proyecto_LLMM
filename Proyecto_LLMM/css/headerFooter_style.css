@@ -1,3 +1,9 @@
+body{
+  margin: 0px;
+  background-color:white;
+  font-family: Arial, sans-serif;
+}
+
 header {
     background-color: #2f6b5a;
     color: white;
@@ -11,11 +17,7 @@ header {
 
     position: sticky;  /* Se queda pegado al llegar al tope */
     top: 0;           /* Se pega al borde superior de la pantalla */
-    z-index: 1;    
-}
-
-.iconos img {
-    filter: invert(100%) brightness(200%); /* convierte el icono de blanco a negro */
+    z-index: 1;        /* Se pone por delante de todo */
 }
 
 nav {
@@ -39,6 +41,7 @@ nav {
 .iconos img {
     height: 40px;
     width: auto;
+    filter: invert(100%); /* convierte el icono de blanco a negro */
 }
 
 a {
@@ -57,13 +60,12 @@ footer{
     margin-top: 50px;
 }
 
+.separacion{
+    margin-top: 25px;
+}
 
 .pie{
     display: block; 
     color: white;
     margin-top: 15px;
-}
-
-.separacion{
-    margin-top: 25px;
 }

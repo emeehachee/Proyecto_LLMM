@@ -1,8 +1,5 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
 .contenedor {
@@ -56,16 +53,12 @@ body {
     border-radius: 10px;
 }
 
-.price {
-    font-weight: bold;
-    color: black;
-}
-
-.derecha .borde {
+.derecha  {
     border: 2px solid #2f6b5a;
     border-radius: 16px;
     padding: 20px;
     background-color:white;
+    align-self: flex-start;  /* cancela el estiramiento automatico ( el del padre) y tiene su propio tamaño  */
 }
 
 .derecha h1 {
@@ -79,15 +72,18 @@ body {
 .resumen {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
     flex-wrap: wrap;
+    width: 400px;
+}
+
+.resumen p{
+    margin: 10px 0;
 }
 
 .opcion {
     width: 100%;
     display: flex;
     gap: 8px;       
-    margin-top: 10px;
 }
 
 .inputDescuento {

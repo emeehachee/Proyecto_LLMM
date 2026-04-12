@@ -1,18 +1,12 @@
-body{
-    margin: 0px;
-    background-color:white;
-    font-family: Arial, sans-serif;
-}
-
 .titulo{
-    text-align: center;
-    font-weight:bold;
-    font-size: 50px;
-    margin-top: 50px;
+  text-align: center;
+  font-weight:bold;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 .comofunciona {
-  max-width: 1000px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0px 20px;
 }
@@ -35,12 +29,11 @@ body{
 }
 
 .contenedor {
-    background-color: #e0eee7;  
-    font-weight:bold;
-    text-align: center;
-    margin: 20px auto;
-    width: 70%;
-    border-radius: 10px;
+  font-weight:bold;
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .contenedor h1{
@@ -56,17 +49,16 @@ body{
 
 
 .boton{
-    display: inline-block;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    padding-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    width: 225px;
-    height: 30px;
-    font-size: 18px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 225px;
+  height: 30px;
+  font-size: 18px;
 }
 
 .boton:hover{

@@ -11,7 +11,7 @@
 
 .caja {
     background-color: white;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 12px;
@@ -24,10 +24,6 @@
 
 .caja h3 {
     margin-bottom: 10px;
-}
-
-.caja p {
-    color: gray;
 }
 
 .btn {

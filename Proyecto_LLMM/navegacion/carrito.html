@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
     <link rel="stylesheet" href="../css/headerFooter_style.css">
     <link rel="stylesheet" href="../css/carrito_style.css">
+    <script src="../js/descuento.js" defer ></script>
+    <title>Carrito</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1><a href="../../index.html">EatUp!</a></h1>
-        </div>
+        <h1><a href="../../index.html">EatUp!</a></h1>
 
-        <nav class="menu">
+        <nav>
             <a class="cabecera" href="platos.html#principales">PLATOS PRINCIPALES</a>
             <a class="cabecera" href="platos.html#secundarios">PLATOS SECUNDARIOS</a>
             <a class="cabecera" href="platos.html#postres">POSTRES</a>
@@ -28,67 +27,64 @@
 
     <div class="contenedor">
         <div class="izquierda">
-            <div class="borde">
-                <h1>Selección de platos</h1> 
+            <h1>Selección de platos</h1> 
 
-                <div class="plato">
-                    <img src="../media/Platos/primeros/carbonara.avif" alt="Pasta Carbonara">
-                    <div class="plato-info">
-                        <h3>Pasta Carbonara</h3>
-                        <span class="precio">11,80€</span>
-                    </div>
-                    <span class="cantidad">x1</span>
+            <div class="plato">
+                <img src="../media/Platos/primeros/carbonara.avif" alt="Pasta Carbonara">
+                <div>
+                    <h3>Pasta Carbonara</h3>
+                    <p>11,80€</p>
+                </div>
+                <p class="cantidad">x1</p>
             </div>
 
-                <div class="plato">
-                    <img src="../media/Platos/segundos/CARRILLERAS.jpg" alt="Carrillera iberica">
-                    <div class="plato-info">
-                        <h3>Carrilleras de Ternera Glaseadas</h3>
-                        <span class="precio">18,50€</span>
-                    </div>
-                    <span class="cantidad">x1</span>
+            <div class="plato">
+                <img src="../media/Platos/segundos/CARRILLERAS.jpg" alt="Carrillera iberica">
+                <div>
+                    <h3>Carrilleras de Ternera Glaseadas</h3>
+                    <p>18,50€</p>
                 </div>
+                <p class="cantidad">x1</p>
+            </div>
 
-                <div class="plato">
-                    <img src="../media/Platos/postres/Postres1.jpg" alt="Tarta de queso">
-                    <div class="plato-info">
-                        <h3>Tarta de Queso Casera</h3>
-                        <span class="precio">6,50€</span>
-                    </div>
-                    <span class="cantidad">x1</span>
+            <div class="plato">
+                <img src="../media/Platos/postres/Postres1.jpg" alt="Tarta de queso">
+                <div>
+                    <h3>Tarta de Queso Casera</h3>
+                    <p>6,50€</p>
                 </div>
+                <p class="cantidad">x1</p>
             </div>
         </div>
 
         <div class="derecha">
-            <div class="borde">
-                <h1>Resumen del pedido</h1>
+            <h1>Resumen del pedido</h1>
                 
-                <div class="resumen">
-                    <span>Subtotal</span>
-                    <span>36,80€</span>
-                </div>
-
-                <div class="resumen">
-                    <span>Envío</span>
-                    <span>3,95€</span>
-                </div>
-
-                <div class="resumen">
-                    <span>¿Algun descuento?</span>
-                    <div class="opcion">
-                    <input type="text" placeholder="Descuento" class="inputDescuento">
-                    <button type="button" class="botonDescuento">Aplicar</button>
-                    </div>
-                </div>
-
-                <div class="resumen total">
-                    <span >Total</span>
-                    <span>40,75€</span>
-                </div>
-                
-                <button class="boton">Continuar</button>
+            <div class="resumen">
+                <p>Subtotal</p>
+                <p>36,80€</p>
             </div>
+
+            <div class="resumen">
+                <p>Envio</p>
+                <p>3,95€</p>
+            </div>
+
+            <div class="resumen">
+                <p>¿Algun descuento?</p>
+                <div class="opcion">
+                    <input type="text" placeholder="Descuento" class="inputDescuento" id="descuento">
+                    <button type="button" class="botonDescuento" id="botonDescuento">Aplicar</button>
+                </div>
+                <p id="mensajeAplicado"></p>
+            </div>
+
+            <div class="resumen total">
+                <p >Total</p>
+                <p id="precioTotal">40.75€</p>
+            </div>
+                
+            <button class="boton">Continuar</button>
         </div>
     </div>
 
